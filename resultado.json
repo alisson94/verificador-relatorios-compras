@@ -1,0 +1,242 @@
+{
+  "versao_verificador": "1.0.0",
+  "executado_em_utc": "2026-10-24T21:34:26.390853+00:00",
+  "cliente": "Distribuidora ficticia",
+  "ano": 2025,
+  "trimestre": 3,
+  "status_incluidos_no_gasto": [
+    "em aberto",
+    "entregue"
+  ],
+  "aprovado": false,
+  "qualidade": {
+    "linhas_csv": 243,
+    "pedidos_unicos_csv": 240,
+    "copias_descartadas_por_id": {
+      "PC-0013": 1,
+      "PC-0100": 1,
+      "PC-0181": 1
+    },
+    "csv_sha256": "fbf805d39e1cbfc3b5b1e4d928b741c0a9a2cd5146b660152a0b8c7352a3be87"
+  },
+  "apoio": {
+    "pedidos_no_ano": 240,
+    "pedidos_no_gasto": 224,
+    "status_no_ano": {
+      "entregue": 195,
+      "em aberto": 29,
+      "cancelado": 16
+    },
+    "gasto_por_categoria": {
+      "Logística": "1287520.32",
+      "Facilities": "387079.90",
+      "Manutenção": "2891120.28",
+      "TI": "2316322.27",
+      "Materiais": "914015.90"
+    },
+    "top3_fornecedores": {
+      "Beta Serviços": "1509944.99",
+      "Teta TI": "1507919.67",
+      "Alfa Industrial": "1381175.29"
+    }
+  },
+  "itens": [
+    {
+      "item": 1,
+      "correto": false,
+      "campos": [
+        {
+          "indicador": "total_pedidos",
+          "informado": "243",
+          "esperado": "240",
+          "valor_calculado_sem_escala": "240",
+          "unidade": "pedidos",
+          "casas_decimais": 0,
+          "correto": false,
+          "motivo": "comparacao na precisao do relatorio"
+        }
+      ]
+    },
+    {
+      "item": 2,
+      "correto": true,
+      "campos": [
+        {
+          "indicador": "pedidos_cancelados",
+          "informado": "16",
+          "esperado": "16",
+          "valor_calculado_sem_escala": "16",
+          "unidade": "pedidos",
+          "casas_decimais": 0,
+          "correto": true,
+          "motivo": "comparacao na precisao do relatorio"
+        }
+      ]
+    },
+    {
+      "item": 3,
+      "correto": false,
+      "campos": [
+        {
+          "indicador": "gasto_total",
+          "informado": "8.38",
+          "esperado": "7.80",
+          "valor_calculado_sem_escala": "7796058.67",
+          "unidade": "BRL_milhoes",
+          "casas_decimais": 2,
+          "correto": false,
+          "motivo": "comparacao na precisao do relatorio"
+        }
+      ]
+    },
+    {
+      "item": 4,
+      "correto": true,
+      "campos": [
+        {
+          "indicador": "maior_categoria",
+          "informado": "Manutenção",
+          "esperado": "Manutenção",
+          "valor_calculado_sem_escala": "Manutenção",
+          "unidade": "texto",
+          "casas_decimais": null,
+          "correto": true,
+          "motivo": "comparacao na precisao do relatorio"
+        },
+        {
+          "indicador": "participacao_maior_categoria",
+          "informado": "37",
+          "esperado": "37",
+          "valor_calculado_sem_escala": "37.08438330672542257817564628",
+          "unidade": "percentual",
+          "casas_decimais": 0,
+          "correto": true,
+          "motivo": "comparacao na precisao do relatorio"
+        }
+      ]
+    },
+    {
+      "item": 5,
+      "correto": true,
+      "campos": [
+        {
+          "indicador": "concentracao_top3",
+          "informado": "56",
+          "esperado": "56",
+          "valor_calculado_sem_escala": "56.42646029496850874776703034",
+          "unidade": "percentual",
+          "casas_decimais": 0,
+          "correto": true,
+          "motivo": "comparacao na precisao do relatorio"
+        }
+      ]
+    },
+    {
+      "item": 6,
+      "correto": false,
+      "campos": [
+        {
+          "indicador": "ticket_mediano",
+          "informado": "34.8",
+          "esperado": "25.6",
+          "valor_calculado_sem_escala": "25628.64",
+          "unidade": "BRL_mil",
+          "casas_decimais": 1,
+          "correto": false,
+          "motivo": "comparacao na precisao do relatorio"
+        }
+      ]
+    },
+    {
+      "item": 7,
+      "correto": false,
+      "campos": [
+        {
+          "indicador": "gasto_trimestre",
+          "informado": "4.15",
+          "esperado": "2.11",
+          "valor_calculado_sem_escala": "2106942.81",
+          "unidade": "BRL_milhoes",
+          "casas_decimais": 2,
+          "correto": false,
+          "motivo": "comparacao na precisao do relatorio"
+        }
+      ]
+    },
+    {
+      "item": 8,
+      "correto": true,
+      "campos": [
+        {
+          "indicador": "prazo_medio_entregues",
+          "informado": "19",
+          "esperado": "19",
+          "valor_calculado_sem_escala": "19.19487179487179487179487179",
+          "unidade": "dias",
+          "casas_decimais": 0,
+          "correto": true,
+          "motivo": "comparacao na precisao do relatorio"
+        }
+      ]
+    },
+    {
+      "item": 9,
+      "correto": true,
+      "campos": [
+        {
+          "indicador": "pedidos_em_aberto_pct",
+          "informado": "12",
+          "esperado": "12",
+          "valor_calculado_sem_escala": "12.08333333333333333333333333",
+          "unidade": "percentual",
+          "casas_decimais": 0,
+          "correto": true,
+          "motivo": "comparacao na precisao do relatorio"
+        }
+      ]
+    },
+    {
+      "item": 10,
+      "correto": true,
+      "campos": [
+        {
+          "indicador": "gasto_ti",
+          "informado": "2.32",
+          "esperado": "2.32",
+          "valor_calculado_sem_escala": "2316322.27",
+          "unidade": "BRL_milhoes",
+          "casas_decimais": 2,
+          "correto": true,
+          "motivo": "comparacao na precisao do relatorio"
+        },
+        {
+          "indicador": "maior_pedido_ti",
+          "informado": "612",
+          "esperado": "612",
+          "valor_calculado_sem_escala": "612000.0",
+          "unidade": "BRL_mil",
+          "casas_decimais": 0,
+          "correto": true,
+          "motivo": "comparacao na precisao do relatorio"
+        },
+        {
+          "indicador": "quantidade_maior_pedido_ti",
+          "informado": "1",
+          "esperado": "1",
+          "valor_calculado_sem_escala": "1",
+          "unidade": "pedidos",
+          "casas_decimais": 0,
+          "correto": true,
+          "motivo": "comparacao na precisao do relatorio"
+        }
+      ]
+    }
+  ],
+  "relatorio_sha256": "0c73d5506e4aecf9a8d84d4df206747ceb5c382498cea7739278264b9c688ebb",
+  "itens_errados": [
+    1,
+    3,
+    6,
+    7
+  ]
+}
