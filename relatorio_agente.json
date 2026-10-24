@@ -1,0 +1,19 @@
+{
+  "ano": 2025,
+  "trimestre": 3,
+  "indicadores": {
+    "total_pedidos": {"valor": "243", "unidade": "pedidos", "casas_decimais": 0},
+    "pedidos_cancelados": {"valor": "16", "unidade": "pedidos", "casas_decimais": 0},
+    "gasto_total": {"valor": "8.38", "unidade": "BRL_milhoes", "casas_decimais": 2},
+    "maior_categoria": {"valor": "Manutenção", "unidade": "texto", "casas_decimais": null},
+    "participacao_maior_categoria": {"valor": "37", "unidade": "percentual", "casas_decimais": 0},
+    "concentracao_top3": {"valor": "56", "unidade": "percentual", "casas_decimais": 0},
+    "ticket_mediano": {"valor": "34.8", "unidade": "BRL_mil", "casas_decimais": 1},
+    "gasto_trimestre": {"valor": "4.15", "unidade": "BRL_milhoes", "casas_decimais": 2},
+    "prazo_medio_entregues": {"valor": "19", "unidade": "dias", "casas_decimais": 0},
+    "pedidos_em_aberto_pct": {"valor": "12", "unidade": "percentual", "casas_decimais": 0},
+    "gasto_ti": {"valor": "2.32", "unidade": "BRL_milhoes", "casas_decimais": 2},
+    "maior_pedido_ti": {"valor": "612", "unidade": "BRL_mil", "casas_decimais": 0},
+    "quantidade_maior_pedido_ti": {"valor": "1", "unidade": "pedidos", "casas_decimais": 0}
+  }
+}
